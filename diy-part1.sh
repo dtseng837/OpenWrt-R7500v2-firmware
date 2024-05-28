@@ -16,6 +16,12 @@
 # Add a feed source
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
+echo 'src-git lienol https://github.com/Lienol/openwrt-package' >> feeds.conf.default
+echo 'src-git nas https://github.com/linkease/nas-packages' >> feeds.conf.default
+echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci' >> feeds.conf.default
+
+
 
 # echo '添加jerrykuku的argon-mod主题'
 # rm -rf package/lean/luci-theme-argon  
